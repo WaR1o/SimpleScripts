@@ -21,8 +21,4 @@ text_max_list = [k for k,v in text_dict.items() if v == maxCount]
 text_max_list = sorted(text_max_list)
 mwl = text_max_list[0]
 return mwl
-    
-    # if some letters have the same count, append them to the list, sort it and return first item in that list
-    
-    #replace this for solution
-    
+ 
